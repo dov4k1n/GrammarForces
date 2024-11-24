@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Grammar Forces</string>
+    <string name="app_version">v 1.0</string>
+
+    <string name="morphology">Морфология</string>
+    <string name="syntax">Синтаксис</string>
+    <string name="lexicon">Лексика</string>
+
+</resources>
