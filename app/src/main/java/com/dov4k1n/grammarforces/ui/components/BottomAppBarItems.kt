@@ -12,13 +12,6 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import com.dov4k1n.grammarforces.R
 import kotlinx.serialization.Serializable
 
-//@Serializable
-//object MorphologyRoute
-//@Serializable
-//object SyntaxRoute
-//@Serializable
-//object LexiconRoute
-
 @Serializable
 sealed class BottomAppBarRoutes {
     @Serializable data object MorphologyRoute : BottomAppBarRoutes()

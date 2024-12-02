@@ -8,7 +8,6 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.dov4k1n.grammarforces.ui.TopAppBar
 import com.dov4k1n.grammarforces.ui.components.BottomAppBarRoutes
 import com.dov4k1n.grammarforces.ui.screens.LexiconScreen
 import com.dov4k1n.grammarforces.ui.screens.MorphologyScreen

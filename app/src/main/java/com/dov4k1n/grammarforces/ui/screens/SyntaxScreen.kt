@@ -7,8 +7,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.dov4k1n.grammarforces.ui.BottomAppBar
-import com.dov4k1n.grammarforces.ui.TopAppBar
+import com.dov4k1n.grammarforces.ui.HomeBottomAppBar
+import com.dov4k1n.grammarforces.ui.HomeTopAppBar
 import com.dov4k1n.grammarforces.ui.components.BottomAppBarRoutes
 import com.dov4k1n.grammarforces.ui.components.Lesson
 import com.dov4k1n.grammarforces.ui.components.Section
@@ -52,10 +52,10 @@ fun SyntaxScreen(
 
     Scaffold(
         topBar = {
-            TopAppBar()
+            HomeTopAppBar()
         },
         bottomBar = {
-            BottomAppBar(
+            HomeBottomAppBar(
                 currentTabRoute = currentTabRoute,
                 onNavigateToMorphology = onNavigateToMorphology,
                 onNavigateToSyntax = onNavigateToSyntax,
